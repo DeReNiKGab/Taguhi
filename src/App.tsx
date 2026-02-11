@@ -131,6 +131,7 @@ const testimonials = [
 function App() {
   const [navSolid, setNavSolid] = useState(false)
   const [toast, setToast] = useState(false)
+  const videoSrc = `${import.meta.env.BASE_URL}GT.mp4`
 
   const reduceMotion = useMemo(
     () => window.matchMedia('(prefers-reduced-motion: reduce)').matches,
@@ -217,7 +218,7 @@ function App() {
             preload="metadata"
             poster="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=2000&q=80"
           >
-            <source src="/GT.mp4" type="video/mp4" />
+            <source src={videoSrc} type="video/mp4" />
           </video>
           <div className="hero-overlay" aria-hidden="true" />
           <div className="shape-grid" aria-hidden="true" />
