@@ -1,0 +1,13 @@
+<svg width="220" height="140" viewBox="0 0 220 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="140" rx="16" fill="#55575B"/>
+  <path d="M24 54C39 43 54 41 73 40H90C116 26 135 21 160 23C176 24 193 29 208 39C196 38 184 35 171 31C155 26 140 24 123 25C108 26 98 29 85 37L128 37C115 39 103 39 90 39H72C52 40 38 42 24 54Z" fill="url(#gold)"/>
+  <text x="59" y="92" fill="url(#gold)" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700">GT</text>
+  <text x="22" y="122" fill="url(#gold)" font-family="Inter, Arial, sans-serif" font-size="13" letter-spacing="4">AUTO GALLERY</text>
+  <defs>
+    <linearGradient id="gold" x1="20" y1="18" x2="205" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C7AE6B"/>
+      <stop offset="0.48" stop-color="#E1CC88"/>
+      <stop offset="1" stop-color="#B89B54"/>
+    </linearGradient>
+  </defs>
+</svg>
